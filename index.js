@@ -5,6 +5,7 @@ function writeCards(name){
     
   messages.push(("thank you "+ name[i]));
   }
+  return messages;
 }
 
 function countDown(num){
