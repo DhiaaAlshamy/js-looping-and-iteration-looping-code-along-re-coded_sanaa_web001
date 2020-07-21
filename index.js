@@ -3,7 +3,7 @@ function writeCards(name){
   let messages;
   for(let i=0 ; i<name.lenghth() ;i++){
     
-  console.log("thank you "+ name[i]);
+  messages.push(("thank you "+ name[i]));
   }
 }
 
