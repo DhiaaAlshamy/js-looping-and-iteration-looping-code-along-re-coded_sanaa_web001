@@ -1,6 +1,6 @@
 // Code your solutions in this file
 function writeCards(name){
-  let messages;
+  let messages[]=[""];
   for(let i=0 ; i<name.length ;i++){
     
   messages.push(("thank you "+ name[i]));
