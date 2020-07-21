@@ -1,6 +1,9 @@
 // Code your solutions in this file
 function writeCards(name){
-  console.log("thank you "+ name);
+  for(let i=0 ; i<name.lenghth() ;i++){
+    
+  console.log("thank you "+ name[0]);
+  }
 }
 
 function countDown(num){
